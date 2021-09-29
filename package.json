@@ -1,0 +1,22 @@
+{
+  "name": "gondolin-light",
+  "displayName": "Gondolin Light",
+  "description": "A light VS Code color theme",
+  "version": "0.1.5",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "publisher": "StephenScholtz",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gondolin Light",
+        "uiTheme": "vs",
+        "path": "./themes/Gondolin Light-color-theme.json"
+      }
+    ]
+  }
+}
