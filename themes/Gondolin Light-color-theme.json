@@ -589,6 +589,14 @@
       "settings": {
         "foreground": "#8000bb"
       }
+    },
+    // ELIXIR
+    {
+      "name": "Keywords",
+      "scope": "keyword.other.special-method.elixir",
+      "settings": {
+        "foreground": "#B60027"
+      }
     }
   ]
 }
