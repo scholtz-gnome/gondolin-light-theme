@@ -178,7 +178,11 @@
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "entity.name.function-call.elixir"
+      ],
       "settings": {
         "foreground": "#00ad00",
         "fontStyle": "bold"
@@ -596,6 +600,17 @@
       "scope": "keyword.other.special-method.elixir",
       "settings": {
         "foreground": "#B60027"
+      }
+    },
+    {
+      "name": "Modules",
+      "scope": [
+        "variable.other.constant.elixir",
+        "entity.name.type.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#0055DD",
+        "fontStyle": "bold"
       }
     }
   ]
