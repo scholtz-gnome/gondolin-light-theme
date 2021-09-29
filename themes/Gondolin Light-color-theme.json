@@ -612,6 +612,16 @@
         "foreground": "#0055DD",
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator.other.elixir",
+        "keyword.operator.comparison.elixir"
+      ],
+      "settings": {
+        "foreground": "#00C3DF"
+      }
     }
   ]
 }
