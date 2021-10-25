@@ -151,7 +151,8 @@
       "scope": [
         "entity.name.type.class",
         "entity.other.inherited-class",
-        "entity.name.type.interface"
+        "entity.name.type.interface",
+        "support.class.ruby"
       ],
       "settings": {
         "foreground": "#0055DD",
@@ -585,6 +586,13 @@
       ],
       "settings": {
         "foreground": "#8000BB"
+      }
+    },
+    {
+      "name": "Private Method Keyword",
+      "scope": "keyword.other.special-method.ruby",
+      "settings": {
+        "foreground": "#EEAE00"
       }
     },
     // DOCKER
