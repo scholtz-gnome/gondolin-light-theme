@@ -127,9 +127,14 @@
     },
     {
       "name": "Variable: Declaration",
-      "scope": ["storage.type", "storage.type.property"],
+      "scope": [
+        "storage.type",
+        "storage.type.property",
+        "punctuation.section.array.begin.ruby"
+      ],
       "settings": {
-        "foreground": "#3AF"
+        "foreground": "#3AF",
+        "fontStyle": ""
       }
     },
     {
@@ -182,7 +187,8 @@
       "scope": [
         "entity.name.function",
         "support.function",
-        "entity.name.function-call.elixir"
+        "entity.name.function-call.elixir",
+        "keyword.other.special-method.ruby"
       ],
       "settings": {
         "foreground": "#00ad00",
@@ -586,13 +592,6 @@
       ],
       "settings": {
         "foreground": "#8000BB"
-      }
-    },
-    {
-      "name": "Private Method Keyword",
-      "scope": "keyword.other.special-method.ruby",
-      "settings": {
-        "foreground": "#EEAE00"
       }
     },
     // DOCKER
