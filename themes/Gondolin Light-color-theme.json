@@ -112,7 +112,9 @@
         "keyword.control.flow",
         "storage.modifier.async",
         "keyword.control.trycatch",
-        "keyword.operator.new"
+        "keyword.operator.new",
+        "keyword.operator.ternary",
+        "keyword.operator.comparison"
       ],
       "settings": {
         "foreground": "#b60027"
