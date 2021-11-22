@@ -336,14 +336,32 @@
     },
     {
       "name": "HTML: Tags",
+      "scope": ["entity.name.tag.html"],
+      "settings": {
+        "foreground": "#0033CC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML: Angled Brackets",
       "scope": [
-        "meta.tag",
-        "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.end.html",
+        "punctuation.separator.key-value.html"
       ],
       "settings": {
-        "foreground": "#0055DD"
+        "foreground": "#9ae"
+      }
+    },
+    {
+      "name": "HTML Attribute Values",
+      "scope": [
+        "string.quoted.double.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html"
+      ],
+      "settings": {
+        "foreground": "#9ae"
       }
     },
     {
@@ -361,7 +379,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#91B3E0"
+        "foreground": "#EEAE00"
       }
     },
     {
