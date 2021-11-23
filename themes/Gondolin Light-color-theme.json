@@ -336,7 +336,7 @@
     },
     {
       "name": "HTML: Tags",
-      "scope": ["entity.name.tag.html"],
+      "scope": ["entity.name.tag.html", "entity.name.tag"],
       "settings": {
         "foreground": "#0033CC",
         "fontStyle": "bold"
@@ -404,9 +404,34 @@
     },
     {
       "name": "CSS: Property Names",
-      "scope": ["meta.property-name", "support.type.property-name"],
+      "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#AB6526"
+        "foreground": "#000"
+      }
+    },
+    {
+      "name": "CSS: ID Selectors",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#8000BB"
+      }
+    },
+    {
+      "name": "CSS: Class Selectors",
+      "scope": ["entity.other.attribute-name.class.css"],
+      "settings": {
+        "foreground": "#EEAE00"
+      }
+    },
+    {
+      "name": "CSS: Tag Selectors",
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "#0055DD",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -417,7 +442,14 @@
         "support.constant.property-value"
       ],
       "settings": {
-        "foreground": "#448C27"
+        "foreground": "#099"
+      }
+    },
+    {
+      "name": "CSS: Support Property Values",
+      "scope": "support.constant.font-name.css",
+      "settings": {
+        "foreground": "#2BB"
       }
     },
     {
