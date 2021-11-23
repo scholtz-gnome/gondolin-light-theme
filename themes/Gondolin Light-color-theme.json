@@ -347,7 +347,8 @@
       "scope": [
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.separator.key-value.html"
+        "punctuation.separator.key-value.html",
+        "meta.tag.block.any.html"
       ],
       "settings": {
         "foreground": "#9ae"
@@ -387,6 +388,13 @@
       "scope": ["constant.character.entity", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#AB6526"
+      }
+    },
+    {
+      "scope": "support.class.component.html",
+      "settings": {
+        "foreground": "#0033CC",
+        "fontStyle": "bold"
       }
     },
     // CSS
