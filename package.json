@@ -2,7 +2,7 @@
   "name": "gondolin-light",
   "displayName": "Gondolin Light",
   "description": "A light VS Code color theme",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "repository": {
     "url": "https://github.com/scholtz-gnome/gondolin-light-theme"
   },

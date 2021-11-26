@@ -3,7 +3,7 @@
   "type": "light",
   "colors": {
     "editorBracketMatch.background": "#FFF",
-    "editorBracketMatch.border": "#444",
+    "editorBracketMatch.border": "#ffcc88",
     // EDITOR
     "editor.background": "#FFF",
     "editor.foreground": "#000",
@@ -14,16 +14,46 @@
     "editorGroup.emptyBackground": "#EEE",
     "editorGroup.border": "#EEE",
     "editorGroup.focusedEmptyBorder": "#EEE",
-    // Highlited Text
-    "editor.hoverHighlightBackground": "#EEE",
-    "editor.lineHighlightBackground": "#F9F9F9",
-    "editor.lineHighlightBorder": "#F9F9F9",
+    // Highlighted Text
+    "editor.hoverHighlightBackground": "#efefff",
+
+    "editor.lineHighlightBackground": "#F9F9FF",
+    "editor.lineHighlightBorder": "#F9F9FF",
+
     "editor.wordHighlightBackground": "#EEE",
     "editor.wordHighlightBorder": "#EEE",
-    "editor.wordHighlightStrongBackground": "#EEE",
-    "editor.wordHighlightStrongBorder": "#EEE",
-    "editor.selectionHighlightBackground": "#FAFAFA",
-    "editor.selectionHighlightBorder": "#FAFAFA",
+    "editor.wordHighlightStrongBackground": "#ffee99",
+    "editor.wordHighlightStrongBorder": "#ffee99",
+
+    "editor.selectionHighlightBackground": "#eef",
+    "editor.selectionHighlightBorder": "#eef",
+
+    "editor.findMatchBackground": "#ffdd88",
+    "editor.findMatchBorder": "#ffdd88",
+    "editor.findMatchHighlightBackground": "#ffee88",
+    "editor.findMatchHighlightBorder": "#ffcc88",
+
+    "editor.selectionBackground": "#eef",
+    "editor.inactiveSelectionBackground": "#eee",
+
+    "editorLineNumber.foreground": "#CCD",
+    "editorLineNumber.activeForeground": "#000",
+
+    "editorCursor.foreground": "#000",
+
+    "editorOverviewRuler.findMatchForeground": "#FFF0",
+    "editorOverviewRuler.rangeHighlightForeground": "#FFF0",
+    "editorOverviewRuler.selectionHighlightForeground": "#FFF0",
+
+    "editorOverviewRuler.wordHighlightForeground": "#FFF0",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#FFF0",
+    "editorOverviewRuler.modifiedForeground": "#FFF0",
+    "editorOverviewRuler.addedForeground": "#FFF0",
+    "editorOverviewRuler.deletedForeground": "#FFF0",
+    "editorOverviewRuler.errorForeground": "#FFF0",
+    "editorOverviewRuler.warningForeground": "#FFF0",
+    "editorOverviewRuler.infoForeground": "#FFF0",
+    "editorOverviewRuler.bracketMatchForeground": "#FFF0",
     // ACTIVITY BAR
     "activityBar.background": "#EEE",
     "activityBar.foreground": "#666",
@@ -57,24 +87,7 @@
     "tab.hoverBackground": "#EEE",
     "tab.unfocusedHoverBackground": "#EEE",
     "tab.hoverForeground": "#000",
-    "tab.unfocusedHoverForeground": "#000",
-    "editorLineNumber.foreground": "#BBB",
-    "editorLineNumber.activeForeground": "#000",
-    "editorCursor.foreground": "#000",
-    "editor.selectionBackground": "#DDFC",
-    "editor.inactiveSelectionBackground": "#DDD8",
-    "editorOverviewRuler.findMatchForeground": "#FFF0",
-    "editorOverviewRuler.rangeHighlightForeground": "#FFF0",
-    "editorOverviewRuler.selectionHighlightForeground": "#FFF0",
-    "editorOverviewRuler.wordHighlightForeground": "#FFF0",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#FFF0",
-    "editorOverviewRuler.modifiedForeground": "#FFF0",
-    "editorOverviewRuler.addedForeground": "#FFF0",
-    "editorOverviewRuler.deletedForeground": "#FFF0",
-    "editorOverviewRuler.errorForeground": "#FFF0",
-    "editorOverviewRuler.warningForeground": "#FFF0",
-    "editorOverviewRuler.infoForeground": "#FFF0",
-    "editorOverviewRuler.bracketMatchForeground": "#FFF0"
+    "tab.unfocusedHoverForeground": "#000"
   },
   "tokenColors": [
     {
